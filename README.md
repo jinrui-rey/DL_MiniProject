@@ -1,2 +1,5 @@
 # DL_MiniProject
-MiniProject of deep learning 
+MiniProject of deep learning
+
+###Libary
+-torch
