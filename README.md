@@ -37,4 +37,4 @@ python Plot.py --parameter 'lr' --path path/to/experiment/logfile
    Kaggle_prediction.ipynb is only for predict the unlabeled images on kaggle, and output.csv contains the prediction result.
 
 ## Note
-The device in this project is: device = 'cuda' if torch.cuda.is_available() else 'mps', which could only work on GPUs and Apple M1/M1 Pro. If you have a specific device to use, please change the device.
+The device in this project is:```device = 'cuda' if torch.cuda.is_available() else 'mps'```, which could only work on GPUs and Apple M1/M1 Pro. If you have a specific device to use, please change the `device`.
